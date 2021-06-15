@@ -6,6 +6,7 @@ import DigitalClock from "./component/DigitalClock";
 import Accordian from "./component/Accordian";
 import ContorlledComp from "./component/ContorlledComp";
 import Todo from "./component/Todo";
+import Counter from "./component/Counter";
 
 function App() {
   const [str, setStr] = useState("Vaibhav");
@@ -46,6 +47,8 @@ function App() {
       >
         <DigitalClock />
       </div> */}
+
+      <Counter />
 
       <Todo />
 
