@@ -8,7 +8,7 @@ const Counter = () => {
   };
 
   const decreCount = () => {
-    return count > 0 ? setCount(count - 1) : alert("oops! ZERO limit reached");
+    return count > 0 ? setCount(count - 1) : alert("Oops! ZERO limit reached");
   };
 
   return (

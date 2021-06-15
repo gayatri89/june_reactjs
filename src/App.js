@@ -7,6 +7,8 @@ import Accordian from "./component/Accordian";
 import ContorlledComp from "./component/ContorlledComp";
 import Todo from "./component/Todo";
 import Counter from "./component/Counter";
+import Clock from "react-digital-clock";
+import BootstrapTemplate from "./component/BootstrapTemplate";
 
 function App() {
   const [str, setStr] = useState("Vaibhav");
@@ -48,13 +50,17 @@ function App() {
         <DigitalClock />
       </div> */}
 
+      {/* <Clock />
+
       <Counter />
 
       <Todo />
 
       <Accordian />
 
-      <ContorlledComp />
+      <ContorlledComp /> */}
+
+      <BootstrapTemplate />
     </>
   );
 }
